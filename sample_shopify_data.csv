@@ -1,0 +1,9 @@
+customer_id,tenure_months,total_orders,total_spent,days_since_last_order,avg_order_value,churn
+CUST_1001,12,8,450,15,56,0
+CUST_1002,2,1,30,45,30,1
+CUST_1003,6,3,180,60,60,1
+CUST_1004,24,15,1200,5,80,0
+CUST_1005,1,1,25,50,25,1
+CUST_1006,8,5,300,20,60,0
+CUST_1007,3,2,80,70,40,1
+CUST_1008,18,12,900,10,75,0
