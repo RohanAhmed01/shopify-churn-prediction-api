@@ -5,11 +5,11 @@
 
 Built for Shopify Store Owners in USA/UK - Production-ready, FastAPI + Scikit-Learn.
 
-### 🚀 Live Demo
+### Live Demo
 - **GitHub Code:** https://github.com/RohanAhmed01/shopify-churn-prediction-api
 - **Try with sample data in 2 minutes - Full docs in Swagger UI**
 
-### 📊 What You Get
+### What You Get
 Input: Your Shopify CSV -> Output: Risk Report
 
 | Customer_ID | Last_Order_Days_Ago | Total_Spent | Churn_Probability | Risk |
@@ -19,18 +19,18 @@ Input: Your Shopify CSV -> Output: Risk Report
 
 Use HIGH risk list to send win-back emails/coupons.
 
-### ⚡ Tech Stack
+### Tech Stack
 - **FastAPI** - Production-ready, <100ms response
 - **Scikit-Learn Pipeline** - 80%+ recall (tuned to catch churners, not miss them)
 - **Pandas/NumPy Vectorized** - Handles 200k+ rows in <1.5s
 - **Pydantic** - Data validation
 
-### 🛠️ How It Works
+### How It Works
 1.  **Input:** `tenure, total_orders, total_spent, days_since_last_order, avg_order_value`
 2.  **Model:** RandomForest + SMOTE (handles imbalanced data)
 3.  **Output:** `churn_probability (0-1) + Risk Label (HIGH/MEDIUM/LOW)`
 
-### 📁 Project Structure
+### Project Structure
 
 
 /shopify-churn-prediction-api
@@ -42,7 +42,7 @@ Use HIGH risk list to send win-back emails/coupons.
 └── README.md
 
 
-### 🔧 Quick Start (2 mins)
+### Quick Start (2 mins)
 ```bash
 git clone https://github.com/RohanAhmed01/shopify-churn-prediction-api
 pip install -r requirements.txt
@@ -62,7 +62,7 @@ Results on Test Data
 Recall: 82% (We catch 8 out of 10 churners)
 Precision: 74%
 Built for retention, not vanity metrics
-👨‍💻 Author
+Author:
 Rohan Ahmed - Data Analyst | 3+ years building LTV, Cohort, Anomaly Detection engines | Working with US Shopify stores
 GitHub: https://github.com/RohanAhmed01
 LinkedIn: https://www.linkedin.com/in/rohan-ahmed-838729424/
